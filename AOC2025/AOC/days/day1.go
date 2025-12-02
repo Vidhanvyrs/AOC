@@ -7,7 +7,7 @@ import (
 )
 
 func day1() {
-	content := take("../input/input1.txt")
+	content := take("../input/example1.txt")
 	myArr := strings.Split(content, "\n")
 	fmt.Println(myArr)
 
@@ -49,7 +49,7 @@ func day1() {
 }
 
 func day1by2() {
-	content := take("../input/input1.txt")
+	content := take("../input/example1.txt")
 	myArr := strings.Split(content, "\n")
 	fmt.Println("IN 1by2", myArr)
 
